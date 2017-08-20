@@ -1,0 +1,78 @@
+body {
+    background-color: bisque;
+}
+
+html {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#container {
+    font-size: 30px;
+}
+
+#container > div {
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+#piksele {
+    width: 400px;
+}
+
+#em {
+    width: 20em;
+}
+
+#ex {
+    width: 20ex;
+}
+
+#rem {
+    width: 20rem;
+}
+
+#procent {
+    width: 40%;
+}
+
+#vw {
+    width: 60vw;
+}
+
+#vh {
+    width: 60vh;
+}
+
+#vmin {
+    width: 60vmin;
+    font-size: 3vmin
+}
+
+#vmax {
+    width: 60vmax;
+    font-size: 3vmax;
+    
+}
+
+
+#inch {
+    width: 4in;
+    
+}
+
+
+#cm {
+    width: 4cm;
+    
+}
+
+#mm {
+    width: 40mm;
+    
+}
+
+#pt {
+    width: 100pt;
+    
+}
