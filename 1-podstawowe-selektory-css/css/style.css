@@ -1,0 +1,54 @@
+/*Selektor znacznika */
+p {
+    color: coral;  
+}
+
+/*selektor id*/
+#pink {
+    color: hotpink;
+}
+
+/*selektor klasy*/
+.yellow {
+    color: orange;
+}
+
+/*łczenie selektorów*/
+div, a, span {
+    color: blue;
+}
+
+/*selektor bezpośrdniego potomk*/
+div#element-potomny > p {
+    color: cadetblue;
+}
+
+/*selektor bezpośrdniego potomk spacja*/
+div#element-spacja p {
+    color: cadetblue;
+}
+
+/*selektor dla całego body*/
+body {
+    background-color: bisque;
+}
+
+/*selektor rodzeństwa*/
+div#rodzenstwo > div + div {
+    color: darkslateblue;
+}
+
+/*selektor rodzeństwa*/
+div#calerodzenstwo > p ~ div {
+    color: magenta;
+}
+
+/*selektor wykluczający*/
+ul > li.list-item:not(.last) {
+    color: darkgoldenrod;
+}
+
+/*selektor kolejnego elementu*/
+ol > li:nth-child(3) {
+    background-color: lightgreen;
+}
